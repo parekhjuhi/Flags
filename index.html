@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bahamas Flag</title>
+    <style>
+
+ .flag{
+    width: 900px;
+    height: 600px ;
+    background-color: #00abc9;
+    position: relative;
+    
+}
+
+.triangle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 400px solid black; /* Black triangle */
+    border-top: 300px solid transparent;
+    border-bottom: 400px solid transparent;
+    z-index: 100px;
+}
+.top{
+    width: 900px;
+    height: 200px;
+    background-color: #00abc9;
+    
+
+}
+
+.bottom{
+    width: 900px;
+    height: 200px;
+    background-color: #00abc9;
+
+}
+
+
+
+.middle{
+    width: 900px;
+    height: 200px;
+    background-color: yellow;
+
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="flag">
+        <div class="triangle"></div>
+        <div class="stripes">
+            <div class="stripe top"></div>
+            <div class="stripe middle"></div>
+            <div class="stripe bottom"></div>
+        </div>
+    </div>
+</body>
+</html>
